@@ -1,4 +1,5 @@
 import { ArrowLeft } from 'lucide-react';
+import TransactionGraph from "./TransactionGraph";
 
 interface VisualizationProps {
   onBack: () => void;
@@ -29,13 +30,40 @@ export function Visualization({ onBack }: VisualizationProps) {
         </div>
 
         {/* Content */}
-        <div className="flex items-center justify-center" style={{ minHeight: '60vh' }}>
-          <div className="text-center">
-            <h2 className="text-[28px] font-semibold text-[#1F3A5F]" style={{ fontFamily: "'Inter', sans-serif" }}>
-              Hey this is visualization
-            </h2>
-          </div>
-        </div>
+        <div className="mt-6">
+  <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5">
+
+    {/* Header */}
+    <div className="flex items-center justify-between mb-4">
+      <div>
+        <h2 className="text-lg font-semibold text-[#1F3A5F]">
+          Transaction Network
+        </h2>
+        <p className="text-sm text-gray-500">
+          Visual representation of account interactions
+        </p>
+         <ul className="list-disc list-inside text-sm text-gray-500 ml-4" style={{ fontFamily: "'Inter', sans-serif" }}>
+      <li><strong>Nodes</strong> = Account numbers</li>
+      <li><strong>Arrow →</strong> = Transaction flow</li>
+      <li><strong>Weight</strong> = Transaction amount (₹)</li>
+    </ul>
+      </div>
+    </div>
+
+    {/* Graph Area */}
+    <div className="w-full h-[500px] bg-[#F9FAFB] rounded-xl border border-gray-100 flex items-center justify-center">
+
+      {/* Placeholder (remove later) */}
+     
+        
+     <TransactionGraph />
+     
+      
+
+    </div>
+
+  </div>
+</div>
       </div>
     </div>
   );
