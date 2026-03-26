@@ -1,0 +1,268 @@
+You are a senior UI/UX designer at Barclays. I have an existing SAR (Suspicious 
+Activity Report) Narrative Generator web application. All features and screens are 
+already built and working.
+
+YOUR ONLY JOB IS TO RESTYLE THE VISUAL DESIGN.
+DO NOT add, remove, move, or change any features, components, screens, or 
+information hierarchy. Zero structural changes. Only visual/aesthetic changes.
+
+Restyle this application to exactly match the Barclays public website design 
+language — as seen on barclays.com. Every design decision below is extracted 
+directly from the live Barclays website.
+
+═══════════════════════════════════════
+EXACT BARCLAYS COLOR PALETTE
+═══════════════════════════════════════
+Page background:          #FFFFFF
+Top utility bar bg:        #F0F4F7
+Primary Barclays blue:    #00AEEF
+Dark navy (headings):     #003366
+Body text:                #333333
+Muted / secondary text:   #666666
+Subtle divider / border:  #DDDDDD
+Light blue tint bg:       #E8F4FB  (use for info panels, cards)
+CTA button fill:          #00AEEF  with white text
+Ghost button:             transparent bg, #00AEEF border 2px, #00AEEF text
+Section title accent:     3px left border solid #00AEEF, padding-left 16px
+Hover state (links/nav):  underline in #00AEEF
+Success:                  #008000
+Warning:                  #E67E00
+Error:                    #CC0000
+
+═══════════════════════════════════════
+EXACT BARCLAYS TYPOGRAPHY
+═══════════════════════════════════════
+Primary font:   "Inter" (closest open-source match to Barclays Univers)
+Fallback stack: "Inter", "Helvetica Neue", Arial, sans-serif
+
+Type scale:
+  Page / hero title:      36px, weight 600, color #003366, line-height 1.2
+  Section heading (h2):   26px, weight 600, color #003366, line-height 1.3
+  Sub-heading (h3):       20px, weight 600, color #003366
+  Body text:              16px, weight 400, color #333333, line-height 1.7
+  Small / label:          13px, weight 400, color #666666
+  Table header:           13px, weight 600, color #003366, uppercase, 
+                          letter-spacing 0.05em
+  Table data:             14px, weight 400, color #333333
+  Button text:            15px, weight 600, letter-spacing 0.02em
+  Monospace (prompts):    "JetBrains Mono", 13px, weight 400, color #333333
+
+NEVER use font-weight 700 or 800 anywhere.
+
+═══════════════════════════════════════
+BARCLAYS NAVBAR — EXACT REPLICATION
+═══════════════════════════════════════
+Top utility bar (thin strip above main nav):
+  - Height: 36px
+  - Background: #F0F4F7
+  - Small breadcrumb or utility links in 12px #666666
+
+Main navigation bar:
+  - Height: 68px
+  - Background: #FFFFFF
+  - Bottom border: 1px solid #DDDDDD
+  - Left: Barclays eagle logo + "BARCLAYS" wordmark in #003366, font-size 22px, 
+    font-weight 700, letter-spacing 0.1em
+  - Right side: primary CTA button ("Contact Us") + secondary CTA button 
+    ("Online Banking") — both filled #00AEEF, white text, border-radius 24px 
+    (pill shape), height 40px, padding 0 20px
+  - Right far: search icon (line style, 20px, #003366)
+
+Horizontal nav links (below logo, inline):
+  - Font: 15px Inter 400, color #003366
+  - Active state: color #00AEEF, underline
+  - Hover: color #00AEEF
+  - Spacing: 32px gap between items
+  - No background on hover — only color change
+
+═══════════════════════════════════════
+GRID AND SPACING SYSTEM
+═══════════════════════════════════════
+Max content width:        1200px, centered, auto margins
+Page horizontal padding:  48px left and right
+Section vertical padding: 64px top and bottom
+Card padding:             32px
+Component gap:            24px
+Small gap:                16px
+Base unit:                8px grid
+
+═══════════════════════════════════════
+SURFACE AND CARD TREATMENT
+═══════════════════════════════════════
+All cards:
+  background: #FFFFFF
+  border: 1px solid #DDDDDD
+  border-radius: 4px  ← Barclays uses very subtle rounding, NOT 8-12px
+  box-shadow: none  ← Barclays uses NO shadows, borders only
+  padding: 32px
+
+Info / highlight panels:
+  background: #E8F4FB
+  border-left: 4px solid #00AEEF
+  border-radius: 0
+  padding: 20px 24px
+
+Section title treatment (exactly as seen on barclays.com):
+  border-left: 3px solid #00AEEF
+  padding-left: 16px
+  margin-bottom: 24px
+
+NO gradients anywhere.
+NO box shadows anywhere (Barclays is flat design, borders only).
+NO border-radius above 4px except pill buttons (24px).
+
+═══════════════════════════════════════
+BUTTONS — EXACT BARCLAYS STYLE
+═══════════════════════════════════════
+Primary button:
+  background: #00AEEF
+  color: #FFFFFF
+  border: none
+  border-radius: 24px  ← pill shape, exactly as on barclays.com
+  height: 44px
+  padding: 0 28px
+  font: 15px Inter 600
+  letter-spacing: 0.02em
+
+Secondary / ghost button:
+  background: transparent
+  border: 2px solid #00AEEF
+  color: #00AEEF
+  border-radius: 24px
+  height: 44px
+  padding: 0 28px
+  font: 15px Inter 600
+
+Destructive / danger button:
+  background: #CC0000
+  color: #FFFFFF
+  border-radius: 24px
+  height: 44px
+
+Hover on all buttons: opacity 0.88, no other change.
+No border-radius changes on hover.
+
+═══════════════════════════════════════
+FORM INPUTS
+═══════════════════════════════════════
+Input field:
+  background: #FFFFFF
+  border: 1px solid #AAAAAA
+  border-radius: 0  ← Barclays uses square inputs, no rounding
+  height: 44px
+  padding: 0 14px
+  font: 15px Inter 400, color #333333
+
+Focus state:
+  border: 2px solid #00AEEF
+  outline: none
+
+Dropdown / select:
+  Same as input, add chevron icon right-aligned
+
+Textarea:
+  Same border as input
+  padding: 12px 14px
+  min-height: 120px
+
+Label:
+  font: 13px Inter 600, color #003366
+  margin-bottom: 6px
+  display block above input
+
+═══════════════════════════════════════
+TABLES
+═══════════════════════════════════════
+Table container: border 1px solid #DDDDDD, border-radius 4px, overflow hidden
+
+Header row:
+  background: #F0F4F7
+  font: 13px Inter 600, color #003366
+  text-transform: uppercase
+  letter-spacing: 0.05em
+  padding: 14px 20px
+  border-bottom: 2px solid #DDDDDD
+
+Data rows:
+  background: #FFFFFF
+  font: 14px Inter 400, color #333333
+  padding: 14px 20px
+  border-bottom: 1px solid #DDDDDD
+
+Row hover:
+  background: #E8F4FB
+
+No zebra striping. Clean flat rows.
+
+═══════════════════════════════════════
+STATUS BADGES
+═══════════════════════════════════════
+All badges: font 12px Inter 600, border-radius 24px (pill), 
+            padding 3px 12px, no border
+
+Draft:           bg #E8F4FB,  text #003366
+Pending Review:  bg #FFF4E0,  text #7A4A00
+Approved:        bg #E6F4EA,  text #1B5E20
+Filed:           bg #F0F4F7,  text #003366
+Rejected:        bg #FDECEA,  text #CC0000
+
+═══════════════════════════════════════
+ICONS
+═══════════════════════════════════════
+Use Heroicons line style (outline variant) only.
+Size: 20px for inline/nav, 24px for action buttons.
+Color: #003366 default, #00AEEF for active/primary actions, 
+       #666666 for secondary/muted contexts.
+No filled icons. No colored icon backgrounds.
+
+═══════════════════════════════════════
+AUDIT TRAIL TIMELINE COMPONENT
+═══════════════════════════════════════
+Vertical timeline:
+  Left connector line: 2px solid #DDDDDD
+  Step dot: 10px circle, filled #00AEEF, white center dot 4px
+  Completed step dot: filled #003366
+  Step label: 14px Inter 600, color #003366
+  Step timestamp: 12px Inter 400, color #666666
+  Step detail: 13px Inter 400, color #333333, inside #E8F4FB panel
+
+═══════════════════════════════════════
+CODE / PROMPT DISPLAY BLOCK
+═══════════════════════════════════════
+Container:
+  background: #F0F4F7
+  border: 1px solid #DDDDDD
+  border-left: 4px solid #00AEEF
+  border-radius: 0
+  padding: 20px 24px
+
+Text:
+  font: "JetBrains Mono" 13px 400
+  color: #333333
+  line-height: 1.8
+
+Header label above block:
+  font: 11px Inter 600, color #666666, uppercase, letter-spacing 0.08em
+  content: "PROMPT SENT TO AI"
+
+═══════════════════════════════════════
+PAGE LAYOUT STRUCTURE
+═══════════════════════════════════════
+Top: utility strip (36px, #F0F4F7)
+Then: main navbar (68px, #FFFFFF, border-bottom)
+Then: horizontal nav links strip (48px, #FFFFFF, border-bottom 1px #DDDDDD)
+Then: page content (max-width 1200px, centered, padding 48px)
+No sidebar. Full-width layout only.
+Content sections separated by 64px vertical spacing.
+Section headings use blue left-border accent treatment.
+
+═══════════════════════════════════════
+TONE RULES — NON-NEGOTIABLE
+═══════════════════════════════════════
+- Every pixel must feel like it belongs on barclays.com
+- Flat design only — no shadows, no gradients, no glassmorphism
+- White space is a design element — do not compress it
+- Borders over shadows, always
+- Square inputs, pill buttons — this contrast is intentional and Barclays-specific
+- No rounded cards — 4px max on cards, 0px on inputs
+- The design must pass as a real Barclays internal compliance tool

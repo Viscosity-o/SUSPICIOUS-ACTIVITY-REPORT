@@ -1,0 +1,254 @@
+You are a senior UI/UX designer specializing in enterprise fintech dashboards. Create a pixel-perfect Figma design for a **Suspicious Activity Report (SAR) view page**, matching a professional banking interface (Barclays-style).
+
+⚠️ IMPORTANT:
+
+* Follow exact layout, spacing, typography, and hierarchy
+* This is a **document-style UI (not a dashboard)**
+* Use **card-based sections with bordered containers**
+* Maintain **clean, minimal, compliance-grade design**
+
+---
+
+# 🎨 GLOBAL DESIGN SYSTEM
+
+* Background: #F5F7FA (light grey)
+* Card Background: #FFFFFF
+* Primary Color (Headers): #1F3A5F (dark navy blue)
+* Text Color: #2C2C2C
+* Secondary Text: #6B7280
+* Border Color: #E5E7EB
+* Button Blue: #2F6FED
+
+---
+
+# 🔤 TYPOGRAPHY
+
+* Font: Inter / Roboto / SF Pro (clean sans-serif)
+* Title: 24px, Bold, Dark Blue
+* Section Headings: 16px, Bold, Dark Blue
+* Subheadings: 14px, Semi-bold, Dark Blue
+* Body Text: 13–14px, Regular, Dark Grey
+* Line Height: 1.6
+* Letter spacing: slight (0.2px)
+
+---
+
+# 📐 MAIN LAYOUT
+
+* Centered container width: 1100–1200px
+* Padding inside page: 24px
+* Each section = **card with border + slight shadow**
+* Border radius: 8px
+* Card padding: 16–20px
+* Vertical spacing between cards: 20px
+
+---
+
+# 🔷 TOP NAVIGATION BAR
+
+* Height: 60px
+
+* Left:
+  "SAR Dashboard > SAR/2026/BARCL/00047"
+
+  * Font: 13px
+  * Color: grey (#6B7280)
+
+* Right buttons (aligned horizontally):
+
+  1. "Edit Report" → outlined button
+
+     * Border: #D1D5DB
+     * Text: dark
+  2. "Export PDF" → solid blue button
+
+     * Background: #2F6FED
+     * Text: white
+
+Spacing between buttons: 12px
+
+---
+
+# 📄 HEADER SECTION
+
+* Title: **Suspicious Activity Report**
+* Font: 24px bold
+* Color: dark navy
+* Margin-bottom: 16px
+
+---
+
+# 🧾 SECTION CARD STRUCTURE (VERY IMPORTANT)
+
+Each section must be inside a **boxed container**:
+
+* Border: 1px solid #E5E7EB
+* Background: #FFFFFF
+* Border radius: 8px
+
+---
+
+## 🔹 SECTION HEADER BAR (INSIDE CARD)
+
+Example: "1. Subject Details"
+
+* Background: #F1F5F9 (light grey-blue strip)
+* Padding: 10px 16px
+* Bottom border: 1px solid #E5E7EB
+* Text:
+
+  * Font: 15–16px
+  * Bold
+  * Color: #1F3A5F (dark blue)
+
+---
+
+## 🔹 SECTION CONTENT
+
+* Padding: 16px
+* Paragraph format ONLY (NO TABLES)
+* Text aligned left
+* Spacing between paragraphs: 12px
+
+---
+
+# 📌 1. SUBJECT DETAILS
+
+* Single paragraph block
+
+* Example structure:
+  “The individual involved is John Doe, a British national...”
+
+* Use **multi-line paragraph**
+
+* Maintain readability (line width max ~700px)
+
+---
+
+# 📌 2. GROUNDS FOR SUSPICION
+
+### 🔸 Subheading Style:
+
+* Font: 14px semi-bold
+* Color: #1F3A5F
+* Margin-top: 12px
+* Margin-bottom: 6px
+
+---
+
+### Subsections:
+
+#### 2.1 Overview
+
+Paragraph text
+
+#### 2.2 Transaction Activity
+
+Paragraph summary (NO TABLE)
+
+#### 2.3 Pattern Analysis
+
+Paragraph explanation
+
+#### 2.4 No Explanation
+
+Paragraph explanation
+
+---
+
+### Divider Lines:
+
+* Use thin divider:
+
+  * Height: 1px
+  * Color: #E5E7EB
+  * Margin: 12px 0
+
+---
+
+# 📌 3. FINANCIAL SUMMARY
+
+* Single paragraph
+* Slightly emphasized numbers (optional bold)
+
+---
+
+# 📌 4. ANALYST DECLARATION
+
+* Paragraph text:
+  “Reviewed by A. Sharma…”
+
+* Below paragraph:
+  Add **signature lines**:
+
+  * Two horizontal lines:
+
+    * Width: 200px
+    * Height: 1px
+    * Color: #9CA3AF
+
+  * Labels below:
+
+    * Analyst Signature
+    * Manager Signature
+
+---
+
+# 🔘 ACTION BUTTON (IMPORTANT)
+
+## "View Audit Trail" Button
+
+* Placement: **CENTERED BELOW ALL SECTIONS**
+* Margin-top: 20px
+* Style:
+
+  * Background: #2F6FED
+  * Text: white
+  * Padding: 10px 20px
+  * Border-radius: 6px
+  * Icon: magnifying glass (left side)
+* Font: 14px semi-bold
+
+---
+
+# 🔻 FOOTER
+
+* Background: light grey strip (#F9FAFB)
+* Top border: 1px solid #E5E7EB
+* Padding: 12px 16px
+
+Content (single row, spaced evenly):
+
+* Report Ref
+* Case Ref
+* Page Number
+* “STRICTLY CONFIDENTIAL”
+
+Font:
+
+* 12px
+* Color: #6B7280
+
+---
+
+# 💡 FINAL UX DETAILS
+
+* Maintain consistent spacing
+* Align everything to grid
+* Use subtle shadows (0px 1px 3px rgba(0,0,0,0.05))
+* Keep layout clean and readable like a legal document
+* No unnecessary colors or distractions
+
+---
+
+🎯 OUTPUT:
+Generate a complete Figma design with:
+
+* Proper layer naming
+* Auto-layout used
+* Components for reusable sections
+* Pixel-perfect alignment
+
+---
+
+This UI should feel like an internal banking compliance tool used by analysts and auditors.

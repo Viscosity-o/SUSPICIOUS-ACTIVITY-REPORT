@@ -1,0 +1,200 @@
+/* Barclays-specific component styles */
+
+.sar-narrative {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  color: #333333;
+  line-height: 1.7;
+}
+
+.sar-narrative h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #003366;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 3px solid #00AEEF;
+  line-height: 1.2;
+}
+
+.sar-narrative h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #003366;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding-left: 16px;
+  border-left: 3px solid #00AEEF;
+  line-height: 1.3;
+}
+
+.sar-narrative h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #003366;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.sar-narrative p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.sar-meta {
+  background: #E8F4FB;
+  padding: 20px 24px;
+  margin-bottom: 32px;
+  border-left: 4px solid #00AEEF;
+}
+
+.sar-meta p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333333;
+}
+
+.sar-narrative ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 16px 0;
+}
+
+.sar-narrative ul li {
+  padding: 8px 0 8px 24px;
+  position: relative;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.7;
+}
+
+.sar-narrative ul li:before {
+  content: "•";
+  position: absolute;
+  left: 8px;
+  color: #00AEEF;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sar-narrative strong {
+  color: #003366;
+  font-weight: 600;
+}
+
+.sar-narrative table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.sar-narrative table thead {
+  background: #F0F4F7;
+}
+
+.sar-narrative table th {
+  font-size: 13px;
+  font-weight: 600;
+  color: #003366;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 2px solid #DDDDDD;
+}
+
+.sar-narrative table td {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  padding: 14px 20px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.sar-narrative table tr:last-child td {
+  border-bottom: none;
+}
+
+.sar-narrative table tr:hover {
+  background: #E8F4FB;
+}
+
+/* Barclays status badges */
+.badge-draft {
+  background: #E8F4FB;
+  color: #003366;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 24px;
+  display: inline-block;
+}
+
+.badge-pending {
+  background: #FFF4E0;
+  color: #7A4A00;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 24px;
+  display: inline-block;
+}
+
+.badge-approved {
+  background: #E6F4EA;
+  color: #1B5E20;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 24px;
+  display: inline-block;
+}
+
+.badge-filed {
+  background: #F0F4F7;
+  color: #003366;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 24px;
+  display: inline-block;
+}
+
+.badge-rejected {
+  background: #FDECEA;
+  color: #CC0000;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 24px;
+  display: inline-block;
+}
+
+/* Barclays code/prompt blocks */
+.barclays-code-block {
+  background: #F0F4F7;
+  border: 1px solid #DDDDDD;
+  border-left: 4px solid #00AEEF;
+  border-radius: 0;
+  padding: 20px 24px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.8;
+  overflow-x: auto;
+}
+
+.barclays-code-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #666666;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}

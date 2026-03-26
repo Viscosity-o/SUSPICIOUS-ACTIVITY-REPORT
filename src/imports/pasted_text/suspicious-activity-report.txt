@@ -1,0 +1,150 @@
+You are a world-class document designer specializing in financial compliance reports. Generate a **professional, print-ready PDF layout** for a Suspicious Activity Report (SAR) used in banking systems.
+
+🎯 Goal:
+Create a SAR document that looks like an **official legal/compliance report**, suitable for submission to regulators, with a clean, structured, paragraph-based format (NO tables).
+
+---
+
+🎨 Design Requirements:
+
+* Paper Size: A4 (or Letter 8.5 x 11)
+* Margins: 1 inch on all sides
+* Font: Times New Roman or similar serif font
+* Font Size:
+
+  * Headings: 14–16 pt (bold)
+  * Body: 12 pt
+  * Footnotes/Footer: 10 pt
+* Colors:
+
+  * Black text on white background
+  * Minimal use of dark blue for headings (optional)
+* Alignment:
+
+  * Justified text for body
+  * Left-aligned headings
+* Line spacing: 1.5
+* Section spacing: consistent and professional
+
+---
+
+📄 DOCUMENT STRUCTURE:
+
+🔷 HEADER (Top of Page)
+
+* Title: **SUSPICIOUS ACTIVITY REPORT** (centered, bold, uppercase)
+* Below title:
+
+  * Report Reference
+  * Case Reference
+  * Date of Report
+  * Classification: STRICTLY CONFIDENTIAL
+
+---
+
+🔹 1. Subject Details
+Write in **formal paragraph format**:
+Include:
+
+* Customer name, reference ID
+* DOB, nationality
+* Account details
+* KYC risk
+* PEP status
+* Account status and balance
+
+---
+
+🔹 2. Grounds for Suspicion
+
+📌 2.1 Overview
+
+* Paragraph explaining why the report is raised
+
+📌 2.2 Transaction Activity
+
+* Paragraph summarizing transactions (NO TABLES)
+* Mention:
+
+  * Number of transactions
+  * Amount range
+  * Dates
+  * Counterparties
+
+📌 2.3 Pattern Analysis
+
+* Paragraph explaining:
+
+  * Structuring behavior
+  * Repetition of amounts
+  * Timing anomalies
+
+📌 2.4 Absence of Legitimate Explanation
+
+* Paragraph explaining lack of valid justification
+
+---
+
+🔹 3. Financial Summary
+
+* Paragraph summarizing:
+
+  * Total value
+  * Average transaction
+  * Standard deviation
+  * Debit vs credit
+  * Behavioral insights
+
+---
+
+🔹 4. Regulatory & Legal Terms
+
+* Formal legal paragraph including references to:
+
+  * Proceeds of Crime Act (POCA 2002)
+  * Money Laundering Regulations (MLR 2017)
+  * NCA SAR Guidelines
+  * JMLSG Guidance
+* Include:
+
+  * Good faith disclosure statement
+  * Tipping-off prohibition notice
+
+---
+
+🔹 5. Analyst Declaration
+
+* Formal statement paragraph:
+
+  * Analyst confirms accuracy
+* Include:
+
+  * Analyst Name
+  * Analyst ID
+  * Date of Review
+  * Signature line (blank line)
+  * Authorising Manager (blank line)
+
+---
+
+🔻 FOOTER (Every Page)
+
+* Format:
+  Report Ref | Case Ref | Page X of Y | STRICTLY CONFIDENTIAL
+* Small font (10 pt)
+* Light separator line above footer
+
+---
+
+💡 Additional Instructions:
+
+* Use proper legal tone (formal, objective, precise)
+* Maintain paragraph-based readability
+* Avoid bullet points and tables
+* Ensure content flows like a legal report
+* Add page numbers automatically
+
+---
+
+🎯 Output:
+Generate a clean, structured SAR document ready for PDF export that looks like an official banking compliance report.
